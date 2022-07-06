@@ -1,0 +1,48 @@
+.flex-container{
+    width: 1000px;
+    height: 90vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+font-family: 'Courier New', Courier, monospace;
+font-size: 5rem;
+border-bottom: 5px solid black;
+
+}
+
+ul{
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto
+}
+
+ul li {
+    padding: 1rem 1rem;
+    margin: 1rem;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 2rem;
+    flex: 1 0 250px;
+    text-align: center;
+    list-style: none;
+}
+
+ul li:hover{
+    border: 3px solid red;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}

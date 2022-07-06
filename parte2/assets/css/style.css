@@ -1,0 +1,36 @@
+.container {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.stickerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.stickerContainer img {
+  width: 500px;
+}
+
+.sticker1,
+.sticker2 {
+    margin-right: 25px;
+}
+
+.sticker1,
+.sticker2,
+.sticker3 {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+
+input {
+    margin-top: 10px;
+}

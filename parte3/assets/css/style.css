@@ -1,0 +1,21 @@
+.container {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  background-color: #e5e5ea;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  width: 120px;
+  height: 45px;
+  font-size: 20px;
+}
